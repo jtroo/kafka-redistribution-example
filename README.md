@@ -33,3 +33,19 @@ consumer.
 The code will be working as expected if you see a printed message once in a while saying:
 
     consumer <id> got unlucky, re-producing work
+
+## Example run
+
+    2022/03/31 22:59:52 consumer 4 got work: 2173ms
+    2022/03/31 22:59:52 consumer 2 got work: 1235ms
+    2022/03/31 22:59:53 consumer 4 got work: 1443ms
+    2022/03/31 22:59:53 consumer 4 got unlucky, re-producing work: 1443ms
+    2022/03/31 22:59:53 consumer 1 got work: 1443ms
+    2022/03/31 22:59:53 consumer 1 got work: 1421ms
+    2022/03/31 22:59:53 consumer 2 got work: 1390ms
+    2022/03/31 22:59:53 consumer 1 got work: 1574ms
+    2022/03/31 22:59:53 consumer 1 got work: 1869ms
+    2022/03/31 22:59:54 consumer 1 got unlucky, re-producing work: 1869ms
+    2022/03/31 22:59:54 consumer 1 got work: 1869ms
+    2022/03/31 22:59:54 consumer 4 got work: 1070ms
+    2022/03/31 22:59:54 consumer 3 got work: 1336ms
